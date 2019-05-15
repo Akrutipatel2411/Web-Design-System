@@ -1,0 +1,121 @@
+body,html
+{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+}
+*
+{
+    box-sizing: border-box;
+}
+.h1,h2,h3,h4,h5,h6
+{
+    margin: 0;
+    
+}
+.head
+{
+    width: 100%;
+    background-image: url(../images/ruvim-noga.jpg);
+    background-size: cover;
+    height: 450px;
+    background-position: 40%;
+}
+.nevi
+{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+    padding: 40px 0px;
+    color: white
+}
+.blk
+{
+    width: 30%;
+    float: left;
+}
+.menus
+{
+    width: 50%;
+    float: right;
+    overflow: auto;
+}
+.start
+{
+    width: 25%;
+    float: left;
+    padding: 10px 10px;
+}
+.now
+{
+    width: 15%;
+    float: right;
+    padding: 10px 10px;
+    background-color: darkslategray;
+    text-align: center;
+}
+.new
+{
+    width: 40%;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 10px;
+    bottom: 0;
+    position: relative;
+    color: white;
+    font-size: 16px;
+}
+.icon
+{
+    margin: auto;
+    width: 30%;
+    overflow: auto;
+}
+.insta
+{
+    float: left;
+    padding: 10px;
+}
+.enter
+{
+    width: 100%;
+    background-color: #171941;
+    position: absolute;
+}
+.story
+{
+    width: 80%;
+    margin: auto;
+    background-color: ;
+    overflow: auto;
+    position: relative;
+    top: -65px;
+}
+.feature
+{
+    width: 33.3%;
+    float: left;
+    text-align: left;
+    padding: 20px 20px;
+}
+.img
+{
+    width: 100%;
+}
+.clr
+{
+    color: deeppink;
+    font-size: 20px;
+}
+.txt
+{
+    color: rebeccapurple;
+    font-size: 25px;
+    padding: 10px 0px;
+}
+.text
+{
+    color: lightblue;
+    font-size: 20px;
+}
