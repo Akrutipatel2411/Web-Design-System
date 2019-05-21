@@ -15,7 +15,7 @@ body,html
 }
 .head
 {
-    width: 100%;
+    width: 100%; 
     background-image: url(../images/ruvim-noga.jpg);
     background-size: cover;
     height: 450px;
@@ -87,10 +87,9 @@ body,html
 {
     width: 80%;
     margin: auto;
-    background-color: ;
     overflow: auto;
     position: relative;
-    top: -65px;
+    top: -85px;
 }
 .feature
 {
@@ -119,3 +118,118 @@ body,html
     color: lightblue;
     font-size: 20px;
 }
+.trending
+{
+     width: 80%;
+    margin: auto;
+    overflow: auto;
+    text-align: left;
+    color: lightblue;
+}
+.tom
+{
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+    padding: 20px 0px;
+}
+.draw
+{
+    text-align: left;
+    float: left;
+}
+.clring
+{
+    font-size: 20px;
+    color: purple;
+    padding: 10px 10px;
+}
+.text
+{
+    font-size: 15px;
+    color: grey;
+    padding: 10px 10px;
+    
+}
+.machine
+{
+    float: left;
+    width: 60%;
+    padding: 30px 40px;
+}
+.hanks
+{
+    width: 8%;
+    height: 50px;
+    background-color: rebeccapurple;
+    float: left;
+    left: 50px;
+    position: relative;
+}
+.drawn
+{
+    width: 10%;
+    float: left;
+    left: 70px;
+    position: relative;
+}
+.gallery
+{
+    width: 100%;
+    overflow: auto;
+    color: lightblue;
+    padding: 50px 0px;
+    position: relative;
+}
+.img-vik
+{
+    float: left;
+    width: 25%;
+    background-image: url(../images/viktor-forgacs.jpg);
+    height: 400px;
+    background-size:cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.img-rez
+{
+    float: left;
+    width: 25%;
+    background-image: url(../images/rezaul-karim.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: 50%
+}
+.img-paw
+{
+    float: left;
+    width: 25%;
+    background-image: url(../images/pawel-nolbert.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: 50%;
+}
+.img-mark
+{
+    float: left;
+    width: 25%;
+    background-image: url(../images/mark-finn.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.stay
+{
+    text-align: center;
+    padding: 80px 0px;
+}
+.change
+{
+    width: 25%;
+    bottom: 75px;
+    position: absolute;
+    color: white;
+    
+}
+
