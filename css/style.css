@@ -1,61 +1,66 @@
-body,html
-{
+body,
+html {
     width: 100%;
     height: 100%;
     margin: 0%;
 }
-*
-{
+
+* {
     box-sizing: border-box;
 }
-.h1,h2,h3,h4,h5,h6
-{
+
+.h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
-    
+
 }
-.head
-{
-    width: 100%; 
+
+.head {
+    width: 100%;
     background-image: url(../images/ruvim-noga.jpg);
     background-size: cover;
     height: 450px;
     background-position: 40%;
 }
-.nevi
-{
+
+.nevi {
     width: 90%;
     margin: auto;
     overflow: auto;
     padding: 40px 0px;
     color: white
 }
-.blk
-{
+
+.blk {
     width: 30%;
     float: left;
 }
-.menus
-{
+
+.menus {
     width: 50%;
     float: right;
     overflow: auto;
 }
-.start
-{
+
+.start {
     width: 25%;
     float: left;
     padding: 10px 10px;
 }
-.now
-{
+
+.now {
     width: 15%;
     float: right;
     padding: 10px 10px;
     background-color: darkslategray;
     text-align: center;
 }
-.new
-{
+
+.new {
     width: 40%;
     margin: auto;
     right: 0;
@@ -66,99 +71,99 @@ body,html
     color: white;
     font-size: 16px;
 }
-.icon
-{
+
+.icon {
     margin: auto;
     width: 30%;
     overflow: auto;
 }
-.insta
-{
+
+.insta {
     float: left;
     padding: 10px;
 }
-.enter
-{
+
+.enter {
     width: 100%;
     background-color: #171941;
     position: absolute;
 }
-.story
-{
+
+.story {
     width: 80%;
     margin: auto;
     overflow: auto;
     position: relative;
     top: -85px;
 }
-.feature
-{
+
+.feature {
     width: 33.3%;
     float: left;
     text-align: left;
     padding: 20px 20px;
 }
-.img
-{
+
+.img {
     width: 100%;
 }
-.clr
-{
+
+.clr {
     color: deeppink;
     font-size: 20px;
 }
-.txt
-{
+
+.txt {
     color: rebeccapurple;
     font-size: 25px;
     padding: 10px 0px;
 }
-.text
-{
+
+.text {
     color: lightblue;
     font-size: 20px;
 }
-.trending
-{
-     width: 80%;
+
+.trending {
+    width: 80%;
     margin: auto;
     overflow: auto;
     text-align: left;
     color: lightblue;
 }
-.tom
-{
+
+.tom {
     width: 100%;
     margin: auto;
     overflow: auto;
     padding: 20px 0px;
 }
-.draw
-{
+
+.draw {
     text-align: left;
     float: left;
 }
-.clring
-{
+
+.clring {
     font-size: 20px;
     color: purple;
     padding: 10px 10px;
 }
-.text
-{
+
+.text {
     font-size: 15px;
     color: grey;
     padding: 10px 10px;
-    
+
 }
-.machine
-{
+
+.machine {
     float: left;
     width: 60%;
     padding: 30px 40px;
 }
-.hanks
-{
+
+.hanks {
     width: 8%;
     height: 50px;
     background-color: rebeccapurple;
@@ -166,33 +171,33 @@ body,html
     left: 50px;
     position: relative;
 }
-.drawn
-{
+
+.drawn {
     width: 10%;
     float: left;
     left: 70px;
     position: relative;
 }
-.gallery
-{
+
+.gallery {
     width: 100%;
     overflow: auto;
     color: lightblue;
     padding: 50px 0px;
     position: relative;
 }
-.img-vik
-{
+
+.img-vik {
     float: left;
     width: 25%;
     background-image: url(../images/viktor-forgacs.jpg);
     height: 400px;
-    background-size:cover;
+    background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
 }
-.img-rez
-{
+
+.img-rez {
     float: left;
     width: 25%;
     background-image: url(../images/rezaul-karim.jpg);
@@ -200,8 +205,8 @@ body,html
     background-size: cover;
     background-position: 50%
 }
-.img-paw
-{
+
+.img-paw {
     float: left;
     width: 25%;
     background-image: url(../images/pawel-nolbert.jpg);
@@ -209,8 +214,8 @@ body,html
     background-size: cover;
     background-position: 50%;
 }
-.img-mark
-{
+
+.img-mark {
     float: left;
     width: 25%;
     background-image: url(../images/mark-finn.jpg);
@@ -219,17 +224,106 @@ body,html
     background-position: 50%;
     background-repeat: no-repeat;
 }
-.stay
-{
+
+.stay {
     text-align: center;
     padding: 80px 0px;
 }
-.change
-{
+
+.change {
     width: 25%;
     bottom: 75px;
     position: absolute;
     color: white;
+
+}
+
+.author {
+    width: 80%;
+    margin: auto;
+}
+
+.worker {
+    width: 100%;
+    margin: auto;
+    background-color: ;
+    overflow: auto;
+
+
+}
+
+.mark {
+    width: 33.3%;
+    float: left;
+    position: relative;
+    padding: 15px;
+    
     
 }
 
+.img-john {
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/mike.jpeg);
+    background-position: 50%;
+    background-size: cover;
+    text-align: left;
+
+
+}
+
+.mj {
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    font-size: 20px;
+    color: grey;
+}
+
+.mark-det {
+    width: 100%;
+    padding: 15px;
+    overflow: auto;
+}
+
+.line {
+    background-color: palevioletred;
+    width: 20%;
+    height: 2px;
+    float: right;
+
+
+
+}
+
+.ux {
+    text-align: right;
+    font-size: 30px;
+    padding: 20px 0px;
+    color: white;
+}
+
+.table {
+    color: white;
+    width: 100%;
+}
+.img-dylan {
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/christian.jpg);
+    background-position: 50%;
+    background-size: cover;
+    text-align: left;
+
+
+}
+.img-mila {
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/johana.jpg);
+    background-position: 50%;
+    background-size: cover;
+    text-align: left;
+
+
+}
