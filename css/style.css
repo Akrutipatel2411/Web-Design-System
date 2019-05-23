@@ -21,7 +21,7 @@ h6 {
 
 .head {
     width: 100%;
-    background-image: url(../images/ruvim-noga.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/ruvim-noga.jpg);
     background-size: cover;
     height: 450px;
     background-position: 40%;
@@ -58,6 +58,7 @@ h6 {
     padding: 10px 10px;
     background-color: darkslategray;
     text-align: center;
+    box-shadow: 0px 0px 6px gray;
 }
 
 .new {
@@ -80,7 +81,8 @@ h6 {
 
 .insta {
     float: left;
-    padding: 10px;
+    padding: 5px;
+    
 }
 
 .enter {
@@ -98,14 +100,16 @@ h6 {
 }
 
 .feature {
-    width: 33.3%;
+    width: 33.33%;
     float: left;
     text-align: left;
-    padding: 20px 20px;
+    padding: 10px 10px;
 }
 
 .img {
     width: 100%;
+    border-radius: 7px;
+    text-align: center;
 }
 
 .clr {
@@ -190,7 +194,7 @@ h6 {
 .img-vik {
     float: left;
     width: 25%;
-    background-image: url(../images/viktor-forgacs.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/viktor-forgacs.jpg);
     height: 400px;
     background-size: cover;
     background-position: 50%;
@@ -200,7 +204,7 @@ h6 {
 .img-rez {
     float: left;
     width: 25%;
-    background-image: url(../images/rezaul-karim.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/rezaul-karim.jpg);
     height: 400px;
     background-size: cover;
     background-position: 50%
@@ -209,7 +213,7 @@ h6 {
 .img-paw {
     float: left;
     width: 25%;
-    background-image: url(../images/pawel-nolbert.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/pawel-nolbert.jpg);
     height: 400px;
     background-size: cover;
     background-position: 50%;
@@ -218,7 +222,7 @@ h6 {
 .img-mark {
     float: left;
     width: 25%;
-    background-image: url(../images/mark-finn.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/mark-finn.jpg);
     height: 400px;
     background-size: cover;
     background-position: 50%;
@@ -228,6 +232,7 @@ h6 {
 .stay {
     text-align: center;
     padding: 80px 0px;
+    color: dimgrey;
 }
 
 .change {
@@ -241,12 +246,12 @@ h6 {
 .author {
     width: 80%;
     margin: auto;
+    
 }
 
 .worker {
     width: 100%;
     margin: auto;
-    background-color: ;
     overflow: auto;
 
 
@@ -259,12 +264,13 @@ h6 {
     padding: 15px;
     
     
+    
 }
 
 .img-john {
     width: 100%;
     height: 400px;
-    background-image: url(../images/mike.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/mike.jpeg);
     background-position: 50%;
     background-size: cover;
     text-align: left;
@@ -273,16 +279,25 @@ h6 {
 }
 
 .mj {
-    left: 20px;
+    left: 30px;
     position: absolute;
-    top: 20px;
+    top: 30px;
     font-size: 20px;
     color: grey;
+}
+.setting
+{
+    width: 20%;
+    position: absolute;
+    right: 5px;
+    top: 35px;
+    
+    
 }
 
 .mark-det {
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     overflow: auto;
 }
 
@@ -300,17 +315,17 @@ h6 {
     text-align: right;
     font-size: 30px;
     padding: 20px 0px;
-    color: white;
+    color: dimgrey;
 }
 
 .table {
-    color: white;
+    color: dimgray;
     width: 100%;
 }
 .img-dylan {
     width: 100%;
     height: 400px;
-    background-image: url(../images/christian.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/christian.jpg);
     background-position: 50%;
     background-size: cover;
     text-align: left;
@@ -320,10 +335,14 @@ h6 {
 .img-mila {
     width: 100%;
     height: 400px;
-    background-image: url(../images/johana.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/johana.jpg);
     background-position: 50%;
     background-size: cover;
     text-align: left;
-
-
+}
+.love
+{
+    width: 90%;
+    margin: auto;
+    color: gray;
 }
